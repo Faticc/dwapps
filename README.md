@@ -39,6 +39,10 @@ wget -f https://raw.githubusercontent.com/Faticc/dwapps/main/install.lua /tmp/a.
 dwapps-update
 ```
 
+В DwOS то же самое быстрее делает `get`: `get install dwapps` (или по
+имени программы — `get install bank`), потом `get update`. Состояние и
+ярлыки у них общие.
+
 Установщик помнит, откуда и куда ставил, качает только изменившиеся файлы
 (в `manifest.lua` у каждого записаны размер и CRC32) и подменяет файл
 только тогда, когда скачанное сошлось с манифестом, — оборванная загрузка
